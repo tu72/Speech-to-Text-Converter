@@ -30,11 +30,14 @@ This is a simple web application that converts speech to text using the Web Spee
 5. ensure your table has the following setup :
    ![Screenshot 2024-07-25 184242](https://github.com/user-attachments/assets/6b2d437e-3191-454b-8c8e-24c87330a27b)
 
-6. Update the database connection details in save_transcript.php if necessary: (if you are using xampp on default settings you don't have to do this step) 
-  phpCopy$servername = "localhost";
+6. Update the database connection details in save_transcript.php if necessary: (if you are using xampp on default settings you don't have to do this step)
+   
+  ```
+phpCopy$servername = "localhost";
   $username = "root";
   $password = "";
   $dbname = "speech_to_text";
+```
 
 ## Usage
 
@@ -46,7 +49,8 @@ This is a simple web application that converts speech to text using the Web Spee
     ![image](https://github.com/user-attachments/assets/d22eb28c-99a0-49e9-9317-fe0847b758d2)
 
 4. Click the "Start Recording" button to begin speech recognition.
+
       ![image](https://github.com/user-attachments/assets/478b8b32-6952-4e42-aecc-455a1229b5aa)
 
-5. Click the "Stop Recording" button to end the session and save the transcript to the database.
+6. Click the "Stop Recording" button to end the session and save the transcript to the database.
        ![Screenshot 2024-07-25 184900](https://github.com/user-attachments/assets/e6b5fa52-ba08-45e4-ad79-5e509d02de5a)
