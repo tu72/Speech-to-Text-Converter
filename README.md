@@ -36,16 +36,17 @@ This is a simple web application that converts speech to text using the Web Spee
   $password = "";
   $dbname = "speech_to_text";
 
-##Usage
+## Usage
+
 1. make sure xampp is on (both apacha and mySql)
     ![image](https://github.com/user-attachments/assets/d2e49856-ac29-4267-a41e-70dde00cd33b)
    
 2. Open your web browser and navigate to http://localhost/index.html (adjust the path if you placed the files in a different location).
 3. Grant microphone permission when prompted by the browser.
-4. ![image](https://github.com/user-attachments/assets/d22eb28c-99a0-49e9-9317-fe0847b758d2)
+    ![image](https://github.com/user-attachments/assets/d22eb28c-99a0-49e9-9317-fe0847b758d2)
 
-5. Click the "Start Recording" button to begin speech recognition.
-   ![image](https://github.com/user-attachments/assets/478b8b32-6952-4e42-aecc-455a1229b5aa)
+4. Click the "Start Recording" button to begin speech recognition.
+      ![image](https://github.com/user-attachments/assets/478b8b32-6952-4e42-aecc-455a1229b5aa)
 
-6. Click the "Stop Recording" button to end the session and save the transcript to the database.
-    ![Screenshot 2024-07-25 184900](https://github.com/user-attachments/assets/e6b5fa52-ba08-45e4-ad79-5e509d02de5a)
+5. Click the "Stop Recording" button to end the session and save the transcript to the database.
+       ![Screenshot 2024-07-25 184900](https://github.com/user-attachments/assets/e6b5fa52-ba08-45e4-ad79-5e509d02de5a)
