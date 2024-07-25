@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .recording { background-color: red; color: white; }
+        #status { margin-top: 10px; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>Speech to Text Converter</h1>
+    <button id="start">Start Recording</button>
+    <button id="stop" disabled>Stop Recording</button>
+    <div id="status"></div>
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
